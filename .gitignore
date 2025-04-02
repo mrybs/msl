@@ -1,0 +1,4 @@
+msl-compiler/bin/*
+msl-compiler/CMakeLists.txt
+.vscode
+*/__pycache__/*

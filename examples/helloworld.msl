@@ -1,0 +1,21 @@
+# MSL
+import miotpbot.msl  # Headers
+
+structure qwe q w := 1 e := 'e'
+
+sum a b
+    return a + b
+
+helloworld message
+    reply message 'Hello, world!'
+    # or
+    send 'Hello, world!' message.chat.id
+    array := 1..5
+    iterate each elem from array
+        if elem mod 2 = 0
+            reply (
+                message
+                elem
+            ) # one line
+    a := sum 2 2
+    reply message a # 4

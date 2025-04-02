@@ -1,2 +1,2 @@
-# mpesl
-Miot Project Embedded Scripting Language
+# MSL
+Miot Scripting Language
